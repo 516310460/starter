@@ -15,6 +15,17 @@ export default defineNuxtConfig({
   // Turn off rendering of Nuxt scripts and JS resource hints.
   // noscripts: true,
   css: ['~/assets/css/main.css'],
+  // Route rules. includes ssr and spa and static and cache...
+  // routeRules: {
+  //   '/blog/**': { swr: true },
+  //   '/testA/**': { swr: 600 },
+  //   '/testB/**': { static: true },
+  //   '/testC/**': { cache: { /* cache options*/ } },
+  //   '/testE/**': { ssr: false },
+  //   '/assets/**': { headers: { 'cache-control': 's-maxage=0' } },
+  //   '/api/v1/**': { cors: true, headers: { 'access-control-allowed-methods': 'GET' } },
+  //   '/old-page': { redirect: '/new-page' }
+  // },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
