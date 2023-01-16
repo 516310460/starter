@@ -16,7 +16,9 @@ const { t } = useI18n()
       w="full"
       bg="blue-400"
       text="center white"
-    >{{ $t('layouts.header') }}</header>
+    >{{ $t('layouts.header') }}
+      <DarkToggle />
+    </header>
     <slot />
     <footer
       class="flex items-center justify-center"
