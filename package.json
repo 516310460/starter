@@ -13,9 +13,14 @@
     "@iconify-json/twemoji": "^1.1.5",
     "@nuxtjs/color-mode": "^3.1.5",
     "@nuxtjs/i18n": "^8.0.0-alpha.1",
+    "@types/js-cookie": "^3.0.2",
     "@unocss/nuxt": "^0.45.18",
     "@unocss/preset-attributify": "^0.48.4",
     "@vueuse/nuxt": "^9.2.0",
     "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "js-cookie": "^3.0.1"
   }
 }
