@@ -3,11 +3,19 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "prd": "pm2 start ecosystem.config.js --env production",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "^1.1.7",
+    "@iconify-json/twemoji": "^1.1.5",
+    "@nuxtjs/color-mode": "^3.1.5",
+    "@nuxtjs/i18n": "^8.0.0-alpha.1",
+    "@unocss/nuxt": "^0.45.18",
+    "@unocss/preset-attributify": "^0.48.4",
+    "@vueuse/nuxt": "^9.2.0",
     "nuxt": "^3.0.0"
   }
 }

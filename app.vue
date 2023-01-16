@@ -1,5 +1,11 @@
+<script setup lang="ts">
+const { t } = useI18n()
+useHead({
+  title: t('layouts.title'),
+})
+</script>
 <template>
-  <div>
-    Bitget Nuxt3 template
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
